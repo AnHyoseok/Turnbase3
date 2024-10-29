@@ -183,10 +183,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -391,10 +391,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -754,11 +754,12 @@ Transform:
   m_GameObject: {fileID: 174807507}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 40}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 39.994713}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
+  m_Children:
+  - {fileID: 1039766569}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &203081788
 GameObject:
@@ -1031,10 +1032,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1185,11 +1186,11 @@ Transform:
   m_GameObject: {fileID: 313994912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 0}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: -0.0052880817}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &337074379
 GameObject:
@@ -1255,10 +1256,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1752,11 +1753,11 @@ Transform:
   m_GameObject: {fileID: 476874496}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 90}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 89.99471}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &481325385
 GameObject:
@@ -1837,10 +1838,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2049,7 +2050,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573154780}
+      - m_Target: {fileID: 1573154782}
         m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
         m_MethodName: EndTurn
         m_Mode: 1
@@ -2319,7 +2320,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573154780}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
         m_MethodName: EndTurn
         m_Mode: 1
@@ -2450,11 +2451,11 @@ Transform:
   m_GameObject: {fileID: 602389684}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 10}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 9.994712}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
@@ -2800,7 +2801,11 @@ MonoBehaviour:
   - {fileID: 337074379}
   - {fileID: 41966145}
   - {fileID: 67979400}
-  turnManager: {fileID: 1573154780}
+  - {fileID: 1430384855}
+  - {fileID: 307185117}
+  - {fileID: 1036201895}
+  - {fileID: 915640376}
+  turnManager: {fileID: 1573154782}
 --- !u!1 &773870355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,11 +3023,11 @@ Transform:
   m_GameObject: {fileID: 785243530}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 50}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 49.994713}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &818101471
 GameObject:
@@ -3105,11 +3110,11 @@ Transform:
   m_GameObject: {fileID: 818101471}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 80}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 79.99471}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &915640376
 GameObject:
@@ -3123,7 +3128,6 @@ GameObject:
   - component: {fileID: 915640380}
   - component: {fileID: 915640379}
   - component: {fileID: 915640378}
-  - component: {fileID: 915640377}
   m_Layer: 0
   m_Name: Enemy_3
   m_TagString: Untagged
@@ -3131,22 +3135,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &915640377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915640376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16988a45624478448989041fe1da15fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 120
-  attackPower: 20
-  speed: 3
-  isAlive: 1
 --- !u!212 &915640378
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3246,10 +3234,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3313,7 +3301,7 @@ Transform:
   m_GameObject: {fileID: 915640376}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.1800003, y: 0.2, z: 0}
+  m_LocalPosition: {x: 7.12, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1.8554, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3402,7 +3390,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573154780}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
         m_MethodName: EndTurn
         m_Mode: 1
@@ -3633,10 +3621,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3654,7 +3642,7 @@ Transform:
   m_GameObject: {fileID: 1036201895}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.1800003, y: 0.2, z: 0}
+  m_LocalPosition: {x: 5.33, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1.8554, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3741,10 +3729,50 @@ Transform:
   m_GameObject: {fileID: 1039766567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 30}
-  m_LocalScale: {x: 1, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 174807509}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1094680722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1094680723}
+  m_Layer: 0
+  m_Name: BackGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1094680723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094680722}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.38529, y: -0.22497736, z: 0.0052880817}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1850370017}
+  - {fileID: 174807509}
+  - {fileID: 602389686}
+  - {fileID: 1661340885}
+  - {fileID: 1223686466}
+  - {fileID: 818101473}
+  - {fileID: 785243532}
+  - {fileID: 313994914}
+  - {fileID: 476874498}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1140476324
@@ -4009,11 +4037,11 @@ Transform:
   m_GameObject: {fileID: 1223686464}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 70}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 69.99471}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352098775
 GameObject:
@@ -4234,7 +4262,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573154780}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
         m_MethodName: EndTurn
         m_Mode: 1
@@ -4419,10 +4447,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MyTurnBase.CharacterSwapManager, Assembly-CSharp
-        m_MethodName: OnCharacterSelected
-        m_Mode: 3
+      - m_Target: {fileID: 1573154782}
+        m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4501,7 +4529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573154781}
-  - component: {fileID: 1573154780}
+  - component: {fileID: 1573154782}
   m_Layer: 0
   m_Name: TurnManager
   m_TagString: Untagged
@@ -4509,7 +4537,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1573154780
+--- !u!4 &1573154781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573154779}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0573804, y: -0.06796001, z: -0.021601848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573154782
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4528,21 +4571,9 @@ MonoBehaviour:
   - {fileID: 337074384}
   - {fileID: 41966150}
   - {fileID: 67979406}
---- !u!4 &1573154781
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573154779}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0573804, y: -0.06796001, z: -0.021601848}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  - {fileID: 1430384856}
+  - {fileID: 307185118}
+  - {fileID: 1036201896}
 --- !u!1 &1603854144
 GameObject:
   m_ObjectHideFlags: 0
@@ -4710,7 +4741,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573154780}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
         m_MethodName: EndTurn
         m_Mode: 1
@@ -4841,11 +4872,11 @@ Transform:
   m_GameObject: {fileID: 1661340883}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 60}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 59.994713}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1692548998
 GameObject:
@@ -5200,11 +5231,11 @@ Transform:
   m_GameObject: {fileID: 1850370015}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 20}
+  m_LocalPosition: {x: 9.38529, y: 3.3949773, z: 19.994713}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1094680723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2100217542
 GameObject:
@@ -5391,7 +5422,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573154780}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MyTurnBase.TurnManager, Assembly-CSharp
         m_MethodName: EndTurn
         m_Mode: 1
@@ -5446,17 +5477,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 1850370017}
-  - {fileID: 1039766569}
-  - {fileID: 174807509}
-  - {fileID: 602389686}
-  - {fileID: 1661340885}
-  - {fileID: 1223686466}
-  - {fileID: 818101473}
-  - {fileID: 785243532}
-  - {fileID: 313994914}
-  - {fileID: 476874498}
   - {fileID: 619394802}
+  - {fileID: 1094680723}
   - {fileID: 653466339}
   - {fileID: 1573154781}
   - {fileID: 2100217546}
